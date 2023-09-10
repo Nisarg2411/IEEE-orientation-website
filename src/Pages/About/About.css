@@ -1,0 +1,63 @@
+/* Default styles for larger screens */
+.ab-contain {
+    margin-top: 12%;
+    box-sizing: border-box;
+    position: relative;
+    height: 870px;
+}
+
+.ab-container h1 {
+    text-align: center;
+}
+
+.left,
+.right {
+    width: 47%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    overflow-x: hidden;
+    padding: 10px;
+    position: absolute;
+}
+
+.left {
+    left: 2%;
+}
+
+.right {
+    right: 2%;
+}
+
+.left h3,
+.right h3 {
+    color: #1a639e;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .ab-contain {
+        margin-top: 10%;
+        height: auto;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+        border-radius: 0;
+    }
+}
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+    .ab-contain {
+        margin-top: 5%;
+    }
+    
+    .ab-container h1 {
+        font-size: 24px; /* Adjust the font size as needed */
+    }
+}
