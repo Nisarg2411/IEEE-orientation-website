@@ -36,6 +36,8 @@ import Jashvant from "../../Assets/member-img/Jashvant.JPG";
 import Naresh from "../../Assets/member-img/Naresh Patel.jpg";
 import Jigna from "../../Assets/member-img/Jigna jadav.jpg";
 import unknown from "../../Assets/member-img/unknown.png"
+import Hiren from "../../Assets/member-img/Hiren Mehta.jpg";
+import Bhavin from "../../Assets/member-img/bhavin patel.jpg";
 
 const Cards = () => {
   return (
@@ -43,6 +45,75 @@ const Cards = () => {
       <div className="row">
         <div id="portfolio">
           <div className="container">
+          <h1 className="text-center text-zinc-50 hover:underline cursor-pointer">
+            VGEC IEEE Executive Members
+            </h1>
+            <div className="work-list">
+              <div className="work">
+                <img src={Hiren} alt="" className="img-2" height="300px" width="200px" />
+                <div className="layer">
+                  <h3 className="text-slate-200">Prof. Hiren Mehta</h3>
+                  <p>Electrical Engineering</p>
+                </div>
+              </div>
+              <div className="work">
+                <img src={Jigna} alt="" className="img-2" height="300px" />
+                <div className="layer">
+                  <h3 className="text-slate-200">Ms. Jigna jadav</h3>
+                  <p>Computer Engineering</p>
+                </div>
+              </div>
+            </div>
+
+          <h1 className="text-center text-zinc-50 hover:underline cursor-pointer">
+            VGEC IEEE Faculty Coordinators
+            </h1>
+            <div className="work-list">
+              <div className="work">
+                <img src={Jashvant} alt="" height="300px" />
+                <div className="layer">
+                  <h3 className="text-slate-200">Prof. jashvant Dave</h3>
+                  <p>Information and Technology</p>
+                </div>
+              </div>
+              <div className="work">
+                <img src={kaul} alt="" height="300px" />
+                <div className="layer">
+                  <h3 className="text-slate-200">Prof. Kamakshi Kaul</h3>
+                  <p>Electronics and Instrumentation </p>
+                </div>
+              </div>
+              <div className="work">
+                <img src={Bhavin} alt="" height="300px" />
+                <div className="layer">
+                  <h3 className="text-slate-200">Mr. Bhavin Patel</h3>
+                  <p>Computer Engineering</p>
+                </div>
+              </div>
+            </div>
+            <div className="work-list">
+              <div className="work">
+                <img src={Dalal} alt="" height="300px" />
+                <div className="layer">
+                  <h3 className="text-slate-200">Prof. Hetal Dalal</h3>
+                  <p>Information and Communication</p>
+                </div>
+              </div>
+              <div className="work">
+                <img src={Naresh} alt="" height="300px" />
+                <div className="layer">
+                  <h3 className="text-slate-200">Prof. Naresh Patel</h3>
+                  <p>Electronics and Communication</p>
+                </div>
+              </div>
+              <div className="work">
+              <img src={unknown} alt="" height="300px" />
+                <div className="layer">
+                  <h3 className="text-slate-200">Prof. N. D. Mehta</h3>
+                  <p>Computer and engineering</p>
+                </div>
+                </div>
+            </div>
             <h1 className="text-center text-zinc-50 hover:underline cursor-pointer">
             VGEC IEEE Student Members
             </h1>
@@ -288,54 +359,11 @@ const Cards = () => {
               </div>
               <div className="work">
               </div>
-            </div>
-            <h1 className="text-center text-zinc-50 hover:underline cursor-pointer">
-            VGEC IEEE Student Chapter Coordinators
-            </h1>
-            <div className="work-list">
-              <div className="work">
-                <img src={Jashvant} alt="" height="300px" />
-                <div className="layer">
-                  <h3 className="text-slate-200">Prof. jashvant Dave</h3>
-                  <p>IT</p>
-                </div>
-              </div>
-              <div className="work">
-                <img src={kaul} alt="" height="300px" />
-                <div className="layer">
-                  <h3 className="text-slate-200">Prof. Kamakshi Kaul</h3>
-                  <p>Electronics and Instrumentation </p>
-                </div>
-              </div>
-              <div className="work">
-                <img src={Jigna} alt="" height="300px" />
-                <div className="layer">
-                  <h3 className="text-slate-200">Ms. Jigna jadav</h3>
-                  <p>CE</p>
-                </div>
-              </div>
-            </div>
-            <div className="work-list">
-              <div className="work">
-                <img src={Dalal} alt="" height="300px" />
-                <div className="layer">
-                  <h3 className="text-slate-200">Prof. Hetal Dalal</h3>
-                  <p>IC</p>
-                </div>
-              </div>
-              <div className="work">
-                <img src={Naresh} alt="" height="300px" />
-                <div className="layer">
-                  <h3 className="text-slate-200">Prof. Naresh Patel</h3>
-                  <p>EC</p>
-                </div>
-              </div>
-              <div className="work">
-              </div>
-            </div>
-          </div>      
-        </div>
-      </div>
+            
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
        
   );

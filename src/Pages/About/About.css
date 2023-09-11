@@ -1,9 +1,9 @@
 /* Default styles for larger screens */
 .ab-contain {
-    margin-top: 12%;
+    margin-top: 8%;
     box-sizing: border-box;
     position: relative;
-    height: 870px;
+    height: 1000px;
 }
 
 .ab-container h1 {
@@ -44,17 +44,20 @@
 
     .left,
     .right {
-        width: 100%;
+        width: 95%;
         position: relative;
         margin-bottom: 20px;
         border-radius: 0;
+    }
+    .right{
+        margin-left: 4%;
     }
 }
 
 /* Media query for screens smaller than 480px */
 @media (max-width: 480px) {
     .ab-contain {
-        margin-top: 5%;
+        margin-top: 10%;
     }
     
     .ab-container h1 {

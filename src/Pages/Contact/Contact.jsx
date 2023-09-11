@@ -43,15 +43,15 @@ const Contact = () => {
   return (
     <div>
       <div id="contact">
-        <div class="container">
-            <div class="row">
+        <div className="container">
+            <div className="row">
                 <h1 className="text-center text-zinc-50 hover:underline cursor-pointer">Have any Query? Post it here</h1>
-                <div class="contact-right">
+                <div className="contact-right">
                     <form onSubmit={handleSubmit} name='submit-to-google-sheet' id="fdata">
                         <input type="text" name="Name" placeholder="Your Name" required/>
                         <input type="email" placeholder="Your email" name="Email" required/>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2 sub">Submit</button>
+                        <button type="submit" className="btn btn2 sub">Submit</button>
                     </form>
                 </div>
             </div>

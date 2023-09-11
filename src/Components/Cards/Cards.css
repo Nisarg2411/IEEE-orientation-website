@@ -31,7 +31,9 @@
     border-radius: 20px;
     display: block;
 }
-
+.work img .img-2{
+    padding-left: 30%;
+}
 .layer {
     width: 100%;
     height: 0%;

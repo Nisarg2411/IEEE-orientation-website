@@ -1,6 +1,5 @@
 // App.js
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
 // import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home/Home';
 import Member from './Pages/Member/Member';
@@ -13,17 +12,15 @@ import Nav1 from './Components/Navbar/Nav1';
 
 const App = () => {
   return (
-    <Router>
-      <div className='bg-slate-800 main-contain'>
-        <div><Nav1 /></div>
-          <Home />
-          <About />
-          <Member />
-          <Events />
-          <Contact />
-        <Footer />
-        </div>
-    </Router>
+    <div className='bg-slate-800 main-contain'>
+      <Nav1 />
+      <Home />
+      <About />
+      <Member />
+      <Events />
+      <Contact />
+      <Footer />
+    </div>
   );
 };
 

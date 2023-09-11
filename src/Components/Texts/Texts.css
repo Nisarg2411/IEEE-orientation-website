@@ -1,6 +1,6 @@
 /* Default styles for larger screens */
 .top-container {
-  margin-top: 10%;
+  margin-top: 6%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,7 +67,7 @@
 @media (max-width: 768px) {
   .top-container {
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 8%;
   }
 
   .box-container {
@@ -80,14 +80,14 @@
   }
 
   .htext h1 {
-    font-size: 60px;
+    font-size: 20px;
   }
 }
 
 /* Media query for screens with a maximum width of 460px */
 @media (max-width: 460px) {
   .top-container {
-    margin-top: 2%;
+    margin-top: 10%;
   }
 
   .box-container {
@@ -96,7 +96,7 @@
   }
 
   .htext h1 {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .text-container p {
@@ -106,6 +106,9 @@
   .text-container button {
     padding: 0.8rem 1.6rem;
     margin: 1rem 0;
+  }
+  .img-container{
+    display: none;
   }
 }
   

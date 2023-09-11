@@ -3,7 +3,7 @@ import Texts from '../../Components/Texts/Texts'
 
 const Home = () => {
   return (
-    <div id='home' className="flex items-center h-screen">
+    <div id='home'>
       <Texts />
     </div>
   )
